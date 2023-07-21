@@ -3,34 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/myProject.css" type="text/css">
     <title>14팀/방유림-챗봇+일정관리+커뮤니티 웹사이트</title>
 </head>
 <body>
     <header>
-        <div>
-            <img>로고</img>
-            <ul>
-                <li>bar</li>
-                <li>bar</li>
-                <li>bar</li>
-                <li>bar</li>
-                <li>bar</li>
+        <div class="main_head">
+            <img src="../../logo.PNG" class="logo"></img>
+            <ul class="main_head_bar">
+                <li>메인</li>
+                <li>공지사항</li>
+                <li>일정확인</li>
+                <li>챗봇</li>
+                <li>소개</li>
             </ul>
-            <button>로그인</button>
-            <button>회원가입</button>
+            <button class="login">로그인</button>
+            <button class="join">회원가입</button>
         </div>
     </header>
     <main>
-        <aside>
-            <div>
+        <aside class="side_schedule">
+            <div class="calender">
                 캘린더
             </div>
-            <div>
+            <div class="to_do">
                 TO-DO List
             </div>
         </aside>
         <section>
-            <table border="1">
+            <table class="schedule_table" border="1">
                 <caption>일정테이블</caption>
                 <thead>
                     <tr>
@@ -63,7 +64,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><button>추가버튼</button></td>
+                        <td><button class="btn">추가버튼</button></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -92,7 +93,7 @@
                 </tbody>
             </table>
         </section>
-        <aside>
+        <aside class="chat">
             <div>채팅창</div>
             <div>입력창</div>
         </aside>
