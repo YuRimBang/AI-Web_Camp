@@ -11,79 +11,286 @@
         <div class="main_head">
             <img src="../../logo.PNG" class="logo"></img>
             <ul class="main_head_bar">
-                <li>메인</li>
-                <li>공지사항</li>
-                <li>일정확인</li>
-                <li>챗봇</li>
-                <li>소개</li>
+                <li class="my_font">메인</li>
+                <li class="my_font">공지사항</li>
+                <li class="my_font">일정확인</li>
+                <li class="my_font">챗봇</li>
+                <li class="my_font">소개</li>
             </ul>
-            <button class="login">로그인</button>
-            <button class="join">회원가입</button>
+            <button class="login my_font">로그인</button>
+            <button class="join my_font" class="my_font">회원가입</button>
         </div>
     </header>
     <main>
         <aside class="side_schedule">
             <div class="calender">
-                캘린더
+                <div class="cal_select">
+                    <select id="month">
+                        <option value="January">1월</option>
+                        <option value="February">2월</option>
+                        <option value="March">3월</option>
+                        <option value="April">4월</option>
+                        <option value="May">5월</option>
+                        <option value="June">6월</option>
+                        <option value="July">7월</option>
+                        <option value="August">8월</option>
+                        <option value="September">9월</option>
+                        <option value="October">10월</option>
+                        <option value="November">11월</option>
+                        <option value="December">12월</option>
+                    </select>
+                </div>
+                <table class="schedule_table" border="1">
+                    <caption class="my_font">캘린더</caption>
+                        <thead>
+                            <tr>
+                                <th class="my_font">일요일</th>
+                                <th class="my_font">월요일</th>
+                                <th class="my_font">화요일</th>
+                                <th class="my_font">수요일</th>
+                                <th class="my_font">목요일</th>
+                                <th class="my_font">금요일</th>
+                                <th class="my_font">토요일</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                </table>
             </div>
             <div class="to_do">
-                TO-DO List
+                <table class="schedule_table" border="1">
+                    <caption class="my_font">TO-DO List</caption>
+                        <thead>
+                            <tr>
+                                <th class="my_font">할일</th>
+                                <th class="my_font">체크</th>
+                                <th><button class="btn">추가</button></th>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="todo_text"></td>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <button class="btn">수정</button>
+                                    <button class="btn">삭제</button>
+                                </td>
+                            </tr>
+                        </thead>
+                </table>
             </div>
         </aside>
         <section>
             <table class="schedule_table" border="1">
-                <caption>일정테이블</caption>
+                <caption class="my_font">일정테이블</caption>
                 <thead>
                     <tr>
-                        <th>시간</th>
-                        <td>0</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>9</td>
+                        <th class="my_font">시간</th>
                         <td>10</td>
-                        <td>11</td>
-                        <td>12</td>
-                        <td>13</td>
-                        <td>14</td>
-                        <td>15</td>
-                        <td>16</td>
-                        <td>17</td>
-                        <td>18</td>
-                        <td>19</td>
                         <td>20</td>
-                        <td>21</td>
-                        <td>22</td>
-                        <td>23</td>
+                        <td>30</td>
+                        <td>40</td>
+                        <td>50</td>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><button class="btn">추가버튼</button></td>
+                        <td class="my_font">00</td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">01</td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">02</td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">06</td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">07</td>
                         <td></td>
                         <td></td>
                         <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">08</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">09</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">10</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">11</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">12</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">13</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">14</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">15</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">20</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">21</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">22</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>    
+                    </tr>
+                    <tr>
+                        <td class="my_font">23</td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -94,8 +301,11 @@
             </table>
         </section>
         <aside class="chat">
-            <div>채팅창</div>
-            <div>입력창</div>
+            <div class="chat_chating">채팅창</div>
+            <div class="chat_input_box">
+                <input type="text" class="chat_input">
+                <button class="btn">보내기</button>
+            </div>
         </aside>
     </main>
     <footer>

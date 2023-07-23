@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+
 *{
     padding: 0;
     margin: 0 auto;
+}
+
+.my_font{
+    font-family: 'Bagel Fat One', cursive;
 }
 
 .logo{
@@ -57,12 +63,23 @@ aside, section{
 .calender, .to_do{
     height: 300px;
     border: 2px solid #CAEACE;
+    padding: 5px;
+}
+
+.cal_select{
+    display: flex;
+    justify-content: space-between;
 }
 
 /*-------------------------------------------*/
 
 .schedule_table{
     border: 2px solid #a2bca5;
+}
+
+th, td{
+    text-align: center;
+    padding: 5px;
 }
 
 /*-------------------------------------------*/
@@ -72,8 +89,34 @@ aside, section{
     height: 600px;
 }
 
+.chat_chating{
+    background-color: rgb(233, 255, 228);
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.chat_input_box{
+    background-color: white;
+    height: 30px;
+    margin: 10px;
+
+    margin-top: 500px;
+    padding: 3px;
+}
+
+.chat_input{
+    border: 2px solid #ade0b3;
+    width: 350px;
+    height: 25px;
+}
+
 .btn{
     background-color: #ade0b3;
+}
+
+.todo_text{
+    border: none;
 }
 
 /*-------------------------------------------*/
